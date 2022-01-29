@@ -35,7 +35,7 @@ public class TCPServer{
 				PrintWriter writer = new PrintWriter(socket.getOutputStream());
 				writer.println(serverMessage);
 				writer.flush();
-			}
+			} // end while
 			
 			// terminate the connection
 		 	System.out.println("Quitting...");
